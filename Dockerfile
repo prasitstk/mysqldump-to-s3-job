@@ -1,4 +1,4 @@
-FROM mysql:5.7.22
+FROM mysql:5.7.40-debian
 
 # Install AWS CLI
 RUN	apt-get update \
